@@ -1,0 +1,480 @@
+/* Hero Section CSS */
+
+main>.hero-section {
+    background: url("../../Images/bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -104px;
+    width: 100%;
+    height: 1300px;
+
+}
+
+main .hero-section .hero-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 19rem;
+}
+
+main .hero-section .hero-text h1 {
+    line-height: 1.3;
+}
+
+
+main .hero-section .hero-text p {
+    font-weight: 500;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+/* Hero Section CSS Complete */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Service Section CSS */
+.service-section-primary,
+.servic-section-secondary {
+    padding-bottom: 5rem;
+    background-color: var(--primary-bg-color);
+}
+
+.floating-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    transform: translateY(-120px);
+
+}
+
+
+
+.left-side-floating-container {
+    background: url("../../Images/service-section.webp");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 698px;
+}
+
+.left-side-floating-container {
+    border: 1px solid var(--border-color);
+}
+
+.right-side-floating-container {
+    border: 1px solid var(--border-color);
+    background-color: var(--primary-bg-color);
+    height: 698px;
+
+}
+
+.left-side-floating-container .left-side-text {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 285px;
+}
+
+.left-side-floating-container .left-side-text>p {
+    line-height: 1.7;
+}
+
+.card-container {
+    gap: 3rem;
+}
+
+.primary-card-container {
+    position: relative;
+    top: -60px;
+}
+
+.secondary-card-container {
+    position: relative;
+    bottom: -100px;
+
+}
+
+/* Service Section Primary CSS Complete */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Service Section Secondary CSS */
+
+.servic-section-secondary {
+    padding-top: 5rem;
+}
+
+.servic-section-secondary>.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    border: 1px solid var(--border-color);
+    background-color: var(--primary-bg-color);
+}
+
+.left-image-overlay-section {
+    background: url("../../Images/servicesectionImg2.webp");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 798px;
+}
+
+.left-image-overlay-section .overlay-text {
+    width: 355px;
+    text-align: center;
+}
+
+
+
+.right-text-section .inner-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    width: 375px;
+}
+
+.right-text-section .inner-text p {
+    line-height: 1.9;
+}
+
+/* Service Section Secondary CSS Complete */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Client Section CSS */
+
+.client-section {
+    background-color: var(--primary-bg-color);
+    padding-top: 5rem;
+}
+
+.inner-client-section {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.inner-client-section .animated-container {
+    padding: 2rem 0rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.client-section .overlay-bg {
+    background: url("../../Images/overlaybg.webp");
+    height: 80vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    margin-top: -150px;
+}
+
+/* Client Section CSS Complete */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Partner Section CSS */
+.partner-section {
+    background-color: var(--primary-bg-color);
+}
+
+
+
+.partner-section .inner-partner-section {
+    position: relative;
+    top: -80px;
+    border: 1px solid var(--border-color);
+}
+
+
+.showcase-partner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--primary-bg-color);
+}
+
+.partner-title {
+    padding: 6rem;
+    border: 1px solid var(--border-color);
+
+
+}
+
+.showcase-partner .partner {
+    padding: 6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid var(--border-color);
+}
+
+.partner-one-img {
+    background: url("../../Images/partner1.webp");
+}
+
+.partner-two-img {
+    background: url("../../Images/partner2.webp");
+}
+
+.partner-three-img {
+    background: url("../../Images/partner3.webp");
+}
+
+.partner-four-img {
+    background: url("../../Images/partner4.webp");
+}
+
+.inner-partner-section .partner-grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 698px;
+}
+
+
+
+.partner-left-section .partner-image-overlay-section {
+    height: 100%;
+    background: url("../../Images/videooverlay.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.partner-image-overlay-section .image-overlay-text {
+    width: 400px;
+    text-align: center;
+}
+
+.partner-right-section {
+    border-left: 1px solid var(--border-color);
+    background-color: var(--primary-bg-color);
+}
+
+.partner-right-section .partner-right-text {
+    width: 375px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.partner-right-section .partner-right-text p {
+    line-height: 1.9;
+}
+
+
+/* Globe GIF */
+.globe-gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Responsive Media Query */
+@media screen and (max-width:1090px) {
+
+
+    /* Hero Section */
+    main>.hero-section {
+        height: 1090px;
+    }
+
+
+
+    /* Service Section */
+    .floating-container {
+        grid-template-columns: 1fr;
+    }
+
+    .right-side-floating-container {
+        height: max-content;
+    }
+
+    .card-container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .primary-card-container {
+        position: relative;
+        top: 0;
+        margin-top: 3rem;
+
+    }
+
+    .secondary-card-container {
+        bottom: 0;
+        margin-top: 3rem;
+    }
+
+    /* Service Section 2 */
+    .servic-section-secondary>.grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .right-text-section .inner-text {
+        width: 70%;
+    }
+
+    .grid-container>.right-text-section {
+        padding: 3rem 0rem;
+    }
+
+    /* Partners Section */
+    .partner-title {
+        padding: 2rem;
+    }
+
+    .showcase-partner .partner {
+        padding: 0rem;
+    }
+
+    .inner-partner-section .partner-grid-container {
+        grid-template-columns: 1fr;
+        height: 805px;
+    }
+
+    .partner-right-section .partner-right-text {
+        width: 70%;
+    }
+
+    .partner-left-section .partner-image-overlay-section {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+
+
+    /* Service section */
+    .floating-container {
+        transform: translateY(0px);
+    }
+
+    /* Partners Section */
+    .showcase-partner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partner-four-img {
+        grid-area: 3/1/3/3;
+    }
+
+    /* Clients Section */
+    .inner-client-section .animated-container {
+        flex-wrap: wrap;
+        gap: 6rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    /* Hero Section */
+    main .hero-section .hero-text p {
+        font-size: 2.2rem;
+    }
+
+    /* Client Section */
+    .client-section .overlay-bg {
+        height: 52vh;
+    }
+
+    /* Service Section */
+
+    .left-side-floating-container {
+
+        height: 450px;
+    }
+
+    .left-image-overlay-section {
+        height: 458px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    /* Hero Section */
+    main .hero-section .hero-text {
+        align-items: center;
+        gap: 3rem;
+    }
+
+    main .hero-section .hero-text p {
+        font-size: 1.8rem;
+    }
+
+    main>.hero-section {
+        height: 750px;
+    }
+
+    main>.hero-section {
+        align-items: center;
+    }
+
+    /* Service Card Section */
+    .service-card-inner .service-card-text p {
+        font-size: 1.6rem;
+    }
+
+    .service-card-inner {
+        align-items: center;
+    }
+
+    .service-card-container {
+        width: 80%;
+    }
+
+    .primary-card-container,
+    .secondary-card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service-card-text {
+        align-items: center;
+    }
+
+    .right-side-floating-container,
+    .left-side-floating-container,
+    .partner-section .inner-partner-section,
+    .partner-right-section,
+    .servic-section-secondary>.grid-container {
+        border: none;
+    }
+
+    /* secondary service section */
+    .right-text-section .inner-text {
+        align-items: center;
+        width: 88%;
+    }
+
+    .partner-right-section .partner-right-text {
+        width: 88%;
+    }
+
+    /* Client-section */
+    .partner-right-section .partner-right-text {
+        align-items: center;
+    }
+
+    .partner-image-overlay-section .image-overlay-text,
+    .left-image-overlay-section .overlay-text {
+        width: auto;
+    }
+
+
+}
+
+@media screen and (max-width:300px) {
+    .left-side-floating-container .left-side-text {
+        width: auto;
+    }
+}

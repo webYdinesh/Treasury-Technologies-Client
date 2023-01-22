@@ -1,0 +1,107 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 15rem;
+}
+
+/* Footer Section One CSS */
+footer .footer-section-one {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+footer .footer-section-one .footer-logo {
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+footer .footer-section-one .footer-logo>img {
+    width: 5.5rem;
+}
+
+footer h3,
+label {
+    text-align: start;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+
+footer .footer-section-one .footer-logo>h4 {
+    font-size: 2.4rem;
+}
+
+footer a {
+    line-height: 1.9;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    color: var(--text-color);
+
+}
+
+/* Footer Section Two CSS */
+
+.footer-section-two .footer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+/* Footer Section Three CSS */
+.footer-section-three {
+    align-items: flex-start;
+}
+
+.footer-section-three .social-icons {
+    margin: 1rem 0rem;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width:1090px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-section {
+        justify-content: flex-start;
+    }
+
+    .footer-section-two,
+    .footer-section-four {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem;
+    }
+
+    .footer-section {
+        justify-content: flex-start;
+    }
+
+    footer>.footer-section,
+    .footer-section-two .footer-nav {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    footer .footer-section-one .footer-logo>h4 {
+        font-size: 1.8rem;
+    }
+}

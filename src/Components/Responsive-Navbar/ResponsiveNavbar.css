@@ -1,0 +1,31 @@
+.mobile-nav-container {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-bg-color);
+    height: 100vh;
+    z-index: 10;
+    overflow: scroll;
+    display: none;
+}
+
+.mobile-nav-container .navbar {
+    padding: 15rem 0rem 10rem 0rem;
+}
+
+.mobile-nav-container>.navbar>.nav-items {
+    height: 100%;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.mobile-nav-container>.navbar>.nav-items>li>a {
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:950px) {
+    .mobile-nav-container {
+        display: block;
+    }
+}

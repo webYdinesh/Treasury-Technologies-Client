@@ -1,0 +1,23 @@
+.animated-number-container {
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.animated-number-container .border-line {
+    height: 5px;
+    width: 100%;
+    background-color: var(--border-color);
+    border-radius: .5rem;
+}
+
+.animated-number-container h4 {
+    color: var(--color-primary);
+    line-height: 1;
+
+}
+
+.animated-number-container span {
+    font-weight: 500;
+    padding: 0rem 1rem;
+    color: var(--text-color);
+}

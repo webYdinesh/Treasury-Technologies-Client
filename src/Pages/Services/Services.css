@@ -1,0 +1,103 @@
+.service-container {
+    padding-bottom: 10rem;
+}
+
+.service-container .services-wrapper .card-conatiner {
+    background-color: var(--primary-bg-color);
+    border: 1px solid var(--border-color);
+    margin-top: -104px;
+}
+
+.services-wrapper .about-service-card-container:nth-child(even) .inner-about-service-left .inner-icon-wrapper {
+    background-color: var(--color-primary);
+
+}
+
+.services-card-wrapper {
+    border: 1px solid var(--border-color);
+
+}
+
+.service-container .services-wrapper .services-card-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 570px;
+}
+
+.services-card-wrapper .inner-about-overlay-image {
+    background: url("../../Images/aboutus-image.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px solid var(--border-color);
+
+}
+
+.services-card-wrapper .inner-about-card-text {
+    text-align: center;
+    padding: 0rem 1rem;
+}
+
+.services-card-wrapper .inner-about-text-section .inner-about-text {
+    width: 95%;
+    padding: 1rem;
+}
+
+.services-card-wrapper .inner-about-text-section .inner-about-text {
+    line-height: 1.9;
+}
+
+@media screen and (max-width:1290px) {
+    .about-service-card-container {
+        grid-template-columns: 40% 60%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .about-service-card-container .inner-text-wrapper {
+        width: 100%;
+        align-items: center;
+        padding: 4rem 2.5rem;
+    }
+
+    .service-container .services-wrapper .card-conatiner {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about-service-card-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .service-container .services-wrapper .card-conatiner,
+    .about-service-card-container {
+        border: none;
+    }
+
+    .inner-about-service-left {
+        padding: 2rem 3rem;
+    }
+
+    .services-card-wrapper .inner-about-card-text {
+        width: 85%;
+
+    }
+
+    .services-card-wrapper .inner-about-overlay-image {
+        height: 350px;
+    }
+
+    .service-container .services-wrapper .services-card-wrapper {
+        grid-template-columns: 1fr;
+        height: 100%;
+        border: none;
+    }
+
+    .services-card-wrapper .inner-about-text-section .inner-about-text {
+        width: 70%;
+        padding: 4rem 0rem;
+
+    }
+}

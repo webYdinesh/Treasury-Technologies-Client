@@ -1,0 +1,82 @@
+.component-hero-section {
+    height: 674px;
+    justify-content: flex-start;
+    margin-top: -104px;
+    width: 100%;
+}
+
+.component-hero-section-text {
+    width: 47vmax;
+}
+
+.component-hero-section-text h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.component-hero-section-text p,
+.component-hero-section-text h1 {
+    font-weight: 400;
+}
+
+.component-hero-section-text p {
+    font-weight: 400;
+    line-height: 1.4;
+
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width:1290px) {
+    .component-hero-section-text {
+        width: 85vmax;
+    }
+
+    .component-hero-section {
+        margin-top: -0px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .component-hero-section-text p {
+        font-size: 2rem;
+    }
+
+    .component-hero-section-text h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .component-hero-section-text p {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .component-hero-section-text h1 {
+        font-size: 2.4rem;
+    }
+
+    .component-hero-section {
+        height: 555px;
+        justify-content: center;
+    }
+
+    .component-hero-section-text {
+        width: 80%;
+    }
+
+    .inner-card-component {
+
+        border: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .card-component-text-side .card-text {
+        width: 95%;
+    }
+}

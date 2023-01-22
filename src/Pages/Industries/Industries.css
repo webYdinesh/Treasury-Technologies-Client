@@ -1,0 +1,9 @@
+.industries-main-section .card-wrapper {
+    padding-bottom: 10rem;
+}
+
+@media screen and (max-width:1290px) {
+    .inner-card-component {
+        margin-top: 0px !important;
+    }
+}

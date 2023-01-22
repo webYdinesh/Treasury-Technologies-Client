@@ -1,0 +1,28 @@
+/* Scroll to top CSS */
+.scroll-to-top {
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+    cursor: pointer;
+    z-index: 100;
+    animation: scrollTop 1s infinite ease-in-out alternate-reverse;
+}
+
+@keyframes scrollTop {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+/* Media Query */
+
+@media screen and (max-width:550px) {
+    .scroll-to-top {
+        bottom: 3rem;
+        right: 2rem;
+    }
+}

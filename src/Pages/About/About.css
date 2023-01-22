@@ -1,0 +1,105 @@
+.about-container {
+    padding-bottom: 10rem;
+}
+
+.about-container .services-wrapper .card-conatiner {
+    background-color: var(--primary-bg-color);
+    border: 1px solid var(--border-color);
+    margin-top: -104px;
+}
+
+.services-wrapper .about-service-card-container:nth-child(even) .inner-about-service-left .inner-icon-wrapper {
+    background-color: var(--color-primary);
+
+}
+
+.about-card-wrapper {
+    border: 1px solid var(--border-color);
+
+}
+
+.about-container .services-wrapper .about-card-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 470px;
+}
+
+.about-card-wrapper .inner-about-overlay-image {
+    background: url("../../Images/aboutus-image.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px solid var(--border-color);
+
+}
+
+.about-card-wrapper .inner-about-card-text {
+    width: 15vmax;
+    text-align: center;
+}
+
+.about-card-wrapper .inner-about-text-section .inner-about-text {
+    width: 22.5vmax;
+
+}
+
+.about-card-wrapper .inner-about-text-section .inner-about-text {
+    line-height: 1.9;
+}
+
+@media screen and (max-width:1290px) {
+    .about-service-card-container {
+        grid-template-columns: 40% 60%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .about-service-card-container .inner-text-wrapper {
+        width: 100%;
+        align-items: center;
+        padding: 4rem 2.5rem;
+    }
+
+    .about-container .services-wrapper .card-conatiner {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about-service-card-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .about-container .services-wrapper .card-conatiner,
+    .about-service-card-container,
+    .inner-about-service-left,
+    .about-card-wrapper .inner-about-overlay-image {
+        border: none;
+    }
+
+    .inner-about-service-left {
+        padding: 2rem 3rem;
+    }
+
+    .about-card-wrapper .inner-about-card-text {
+        width: 85%;
+
+    }
+
+    .about-card-wrapper .inner-about-overlay-image {
+        height: 350px;
+    }
+
+    .about-container .services-wrapper .about-card-wrapper {
+        grid-template-columns: 1fr;
+        height: 100%;
+        border: none;
+    }
+
+    .about-card-wrapper .inner-about-text-section .inner-about-text {
+        width: 70%;
+        padding: 4rem 0rem;
+
+    }
+}
