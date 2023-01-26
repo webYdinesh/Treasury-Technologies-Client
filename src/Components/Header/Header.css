@@ -3,6 +3,16 @@
     height: max-content;
 }
 
+.header.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--primary-bg-color);
+    transition: all 350ms linear;
+}
+
 .header>.wrapper-content {
     padding: 4rem 6rem;
     position: relative;

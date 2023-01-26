@@ -13,11 +13,28 @@ const Header = () => {
             document.body.style.height = "100vh";
             document.body.style.overflow = "hidden";
         }
+
         return () => {
             document.body.style.width = "auto";
             document.body.style.overflow = "visible";
         };
     }, [isActive]);
+
+    //to fix header
+    const fixedNavbarHandler = () => {
+        if (window.scrollY >= 150) {
+            document.querySelector(".header").classList.add("fixed-nav");
+        } else {
+            document.querySelector(".header").classList.remove("fixed-nav");
+        }
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", fixedNavbarHandler);
+
+        return () => {
+            window.removeEventListener("scroll", fixedNavbarHandler);
+        };
+    });
 
     return (
         <header className="header" id="#header">

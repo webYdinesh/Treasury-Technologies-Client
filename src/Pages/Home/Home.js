@@ -5,7 +5,6 @@ import ServiceCard from "../../Components/Service-Card/ServiceCard";
 import { Data1, Data2 } from "../../Components/Service-Card/ServiceCardData";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import Globe from "../../Images/globe.gif";
 import "./Home.css";
 const Home = () => {
     //Navigation Of Button
@@ -39,7 +38,7 @@ const Home = () => {
     useEffect(() => {
         window.addEventListener("scroll", ScrollHandler);
         return () => window.removeEventListener("scroll", ScrollHandler);
-    }, []);
+    });
 
     // Motion Controller
 
@@ -359,13 +358,6 @@ const Home = () => {
                     <div className="partner-grid-container">
                         <div className="partner-left-section">
                             <div className="partner-image-overlay-section flex">
-                                <div className="globe-gif-container">
-                                    <img
-                                        src={Globe}
-                                        className="globe-gif"
-                                        alt="globe"
-                                    />
-                                </div>
                                 <div className="image-overlay-text">
                                     <motion.h2
                                         initial={{
