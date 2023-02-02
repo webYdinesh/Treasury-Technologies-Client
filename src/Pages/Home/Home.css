@@ -326,6 +326,14 @@ main .hero-section .hero-text p {
         padding: 0rem;
     }
 
+    .partner-section {
+        padding-bottom: 10rem;
+    }
+
+    .partner-section .inner-partner-section {
+        top: 0;
+    }
+
     .inner-partner-section .partner-grid-container {
         grid-template-columns: 1fr;
         height: max-content;
