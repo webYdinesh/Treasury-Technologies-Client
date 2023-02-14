@@ -62,7 +62,7 @@ const Contact = () => {
             return toast.error("Fill all the Fields.", {
                 position: "top-center",
                 theme: "dark",
-                autoClose: 8000,
+                autoClose: 5000,
             });
         }
         if (
@@ -73,7 +73,7 @@ const Contact = () => {
             return toast.error("E-mail is Invalid.", {
                 position: "top-center",
                 theme: "dark",
-                autoClose: 8000,
+                autoClose: 3000,
             });
         }
         setIsLoading(true);

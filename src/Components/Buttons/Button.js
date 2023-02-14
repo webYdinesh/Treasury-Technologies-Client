@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 import { motion } from "framer-motion";
-const OrangeThemeBtn = ({ title, onClick }) => {
+const OrangeThemeBtn = ({ title, onClick, delay }) => {
     const varients = {
         initial: {
             x: -100,
@@ -18,7 +18,7 @@ const OrangeThemeBtn = ({ title, onClick }) => {
             variants={varients}
             initial="initial"
             transition={{
-                delay: 1.2,
+                delay: delay,
                 type: "tween",
                 duration: "1",
             }}

@@ -1,7 +1,6 @@
 import React from "react";
 import AboutCard from "../../Components/About-Card/AboutCard";
 import HeroSection from "../../Components/Hero-Section/HeroSection";
-import BgImage1 from "../../Images/our-story-img.webp";
 import BgImage2 from "../../Images/leadership-img.webp";
 import HeroImage from "../../Images/industries-bg.webp";
 import { motion } from "framer-motion";

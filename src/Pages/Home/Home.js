@@ -48,10 +48,10 @@ const Home = () => {
                 opacity: 0,
             }}
             transition={{
-                delay: 0.2,
+                delay: 0.1,
                 type: "tween",
                 stiffness: 100,
-                duration: "1",
+                duration: ".5",
             }}
             whileInView={{ opacity: 1 }}
         >
@@ -61,10 +61,10 @@ const Home = () => {
                     <motion.h1
                         initial={{ x: -50, opacity: 0 }}
                         transition={{
-                            delay: 0.8,
+                            delay: 0.3,
                             type: "tween",
                             stiffness: 100,
-                            duration: "1",
+                            duration: ".7",
                         }}
                         animate={{ x: 0, opacity: 1 }}
                     >
@@ -74,10 +74,10 @@ const Home = () => {
                     <motion.p
                         initial={{ x: -50, opacity: 0 }}
                         transition={{
-                            delay: 1,
+                            delay: 0.5,
                             type: "tween",
                             stiffness: 100,
-                            duration: "1.2",
+                            duration: ".9",
                         }}
                         animate={{ x: 0, opacity: 1 }}
                     >
@@ -87,6 +87,7 @@ const Home = () => {
                     <OrangeThemeBtn
                         title={"Get Started"}
                         onClick={() => history("/contact")}
+                        delay={0.3}
                     />
                 </div>
             </section>
@@ -183,10 +184,10 @@ const Home = () => {
                                     opacity: 0,
                                 }}
                                 transition={{
-                                    delay: 0.8,
+                                    delay: 0.3,
                                     type: "tween",
                                     stiffness: 100,
-                                    duration: "1",
+                                    duration: ".4",
                                 }}
                                 whileInView={{
                                     y: 0,
@@ -202,10 +203,10 @@ const Home = () => {
                             <motion.p
                                 initial={{ x: -50, opacity: 0 }}
                                 transition={{
-                                    delay: 0.8,
+                                    delay: 0.5,
                                     type: "tween",
                                     stiffness: 100,
-                                    duration: ".8",
+                                    duration: ".6",
                                 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                             >
@@ -220,27 +221,9 @@ const Home = () => {
                                 of services and get in touch with us if you have
                                 any queries or specific requirements.
                             </motion.p>
-                            {/* <motion.p
-                                initial={{ x: -50, opacity: 0 }}
-                                transition={{
-                                    delay: 0.8,
-                                    type: "tween",
-                                    stiffness: 100,
-                                    duration: ".8",
-                                }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                            >
-                                This is a great space to write a long text about
-                                your company and your services. You can use this
-                                space to go into a little more detail about your
-                                company. Talk about your team and what services
-                                you provide. Tell your visitors the story of how
-                                you came up with the idea for your business and
-                                what makes you different from your competitors.
-                                Make your company stand out and show your
-                                visitors who you are.
-                            </motion.p> */}
+
                             <OrangeThemeBtn
+                                delay={0.5}
                                 title={"Learn More"}
                                 onClick={() => history("/vision")}
                             />
@@ -368,7 +351,7 @@ const Home = () => {
                                             delay: 0.4,
                                             type: "tween",
                                             stiffness: 100,
-                                            duration: "1",
+                                            duration: ".6",
                                         }}
                                         whileInView={{ y: 0, opacity: 1 }}
                                     >
@@ -389,7 +372,7 @@ const Home = () => {
                                         delay: 0.4,
                                         type: "tween",
                                         stiffness: 100,
-                                        duration: "1",
+                                        duration: ".8",
                                     }}
                                     whileInView={{ x: 0, opacity: 1 }}
                                 >
@@ -408,6 +391,7 @@ const Home = () => {
                                     to meet your needs.
                                 </motion.p>
                                 <OrangeThemeBtn
+                                    delay={0.6}
                                     title={"Get Started"}
                                     onClick={() => history("#header")}
                                 />
