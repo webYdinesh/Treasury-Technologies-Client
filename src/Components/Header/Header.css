@@ -27,9 +27,7 @@
     z-index: 10;
 }
 
-.header>.wrapper-content>.company-logo img {
-    width: 5.5rem;
-}
+
 
 .header>.wrapper-content {
     justify-content: space-between;

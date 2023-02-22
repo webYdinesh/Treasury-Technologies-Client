@@ -10,7 +10,12 @@ const Footer = () => {
         <footer className="container footer">
             <div className="footer-section footer-section-one flex">
                 <div className="footer-logo flex">
-                    <img src={CompanyLogo} alt="Companylogo" />
+                    <img
+                        width="55px"
+                        height="26px"
+                        src={CompanyLogo}
+                        alt="Companylogo"
+                    />
                     <h4>Treasury Technologies</h4>
                 </div>
                 <h3>123-456-7890</h3>
@@ -37,21 +42,36 @@ const Footer = () => {
                             href="https://www.linkedin.com/"
                             target="_blank"
                         >
-                            <img src={LinkedIn} alt="LinkedIn" />
+                            <img
+                                height={"25px"}
+                                width={"25px"}
+                                src={LinkedIn}
+                                alt="LinkedIn"
+                            />
                         </a>
                         <a
                             rel="noreferrer"
                             href="https://www.facebook.com/"
                             target="_blank"
                         >
-                            <img src={FaceBook} alt="FaceBook" />
+                            <img
+                                height={"25px"}
+                                width={"25px"}
+                                src={FaceBook}
+                                alt="FaceBook"
+                            />
                         </a>
                         <a
                             rel="noreferrer"
                             href="https://twitter.com/"
                             target="_blank"
                         >
-                            <img src={Twitter} alt="Twitter" />
+                            <img
+                                height={"25px"}
+                                width={"25px"}
+                                src={Twitter}
+                                alt="Twitter"
+                            />
                         </a>
                     </div>
                 </div>

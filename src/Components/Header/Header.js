@@ -47,7 +47,12 @@ const Header = () => {
                         to={"/"}
                         className={"logo flex"}
                     >
-                        <img src={CompanyLogo} alt="Companylogo" />
+                        <img
+                            width="55px"
+                            height="26px"
+                            src={CompanyLogo}
+                            alt="Companylogo"
+                        />
                         <h4>Treasury Technologies</h4>
                     </Link>
                 </div>
