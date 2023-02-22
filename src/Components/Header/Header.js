@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import CompanyLogo from "../../Images/company-logo.png";
+import CompanyLogo from "../../Images/company-logo.webp";
 import ResponsiveNavbar from "../Responsive-Navbar/ResponsiveNavbar";
 import "./Header.css";
 const Header = () => {

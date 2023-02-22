@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import LinkedIn from "../../Images/Linkedin.webp";
 import FaceBook from "../../Images/facebook.webp";
 import Twitter from "../../Images/twitter.webp";
+import CompanyLogo from "../../Images/company-logo.webp";
 import "./Footer.css";
-import CompanyLogo from "../../Images/company-logo.png";
 const Footer = () => {
     return (
         <footer className="container footer">
