@@ -86,12 +86,21 @@ strong {
 
 button {
   cursor: pointer;
-  user-select: none;
+
 }
 
 ::selection {
   background: var(--color-primary);
   color: var(--color-white);
+}
+
+svg,
+a,
+button,
+img,
+label,
+::placeholder {
+  user-select: none;
 }
 
 /* Utility Classess */
