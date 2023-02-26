@@ -18,7 +18,8 @@ const Footer = () => {
                     />
                     <h4>Treasury Technologies</h4>
                 </div>
-                <h3>123-456-7890</h3>
+
+                <a href="tel:1234567890">123-456-7890</a>
                 <a href="mailto:Info@mysite.com">Info@mysite.com</a>
                 <h3>500 Terry Francois St</h3>
                 <h3>San Francisco, CA 94158</h3>

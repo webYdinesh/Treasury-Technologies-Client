@@ -15,7 +15,7 @@ const Home = () => {
         if (window.screen.availWidth > 850) {
             const moveSpeed = window.scrollY / 50;
             document.querySelector(target).style.backgroundPositionX =
-                -70 + moveSpeed + "px";
+                -40 + moveSpeed + "px";
         }
     };
     //ParallexHandle- Zoom

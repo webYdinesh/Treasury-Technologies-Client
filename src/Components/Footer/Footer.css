@@ -43,6 +43,14 @@ footer a {
 
 }
 
+footer a:hover {
+    color: var(--color-primary);
+}
+
+footer .footer-section-one a:hover {
+    color: var(--color-secondary);
+}
+
 /* Footer Section Two CSS */
 
 .footer-section-two .footer-nav {
